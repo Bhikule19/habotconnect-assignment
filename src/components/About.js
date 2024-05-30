@@ -16,8 +16,8 @@ const About = () => {
   return (
     <div className="flex flex-col lg:flex-row justify-center items-center h-screen px-20 bg-white">
       <div className="max-sm:text-center max-lg:text-center lg:mr-16 mb-6 lg:mb-0 sm:w-[50%] text-left">
-        <h2 className="text-2xl lg:text-4xl font-bold mb-4">
-          Ready to dive into <span className="text-purple-600">HABOT?</span>
+        <h2 className="text-4xl lg:text-4xl font-bold mb-4">
+          Ready to dive into HABOT?
         </h2>
         <p className="text-gray-600 mb-4 lg:w-[80%]">
           Signing up with HABOT opens the door to a world of new opportunities
@@ -37,8 +37,14 @@ const About = () => {
           ) => (
             <Button
               key={index}
-              variant="outline-warning"
-              className="w-full py-2"
+              className="w-full py-2 hover:text-white"
+              style={{
+                color: "#000",
+                borderWidth: "2px",
+                borderStyle: "solid",
+                borderColor: "#E7760D",
+                backgroundColor: "#fff",
+              }}
             >
               {location}
             </Button>

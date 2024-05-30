@@ -10,7 +10,7 @@ const VideoBuyerSection = () => {
   };
 
   return (
-    <div className="px-10 lg:px-20">
+    <div className="px-10 lg:px-20 mb-28">
       <div className="flex flex-col lg:flex-row justify-center items-center h-screen  bg-[#072F57]">
         <div className="">
           <iframe
@@ -39,7 +39,7 @@ const VideoBuyerSection = () => {
               <button
                 onClick={() => handleSectionChange("supplier")}
                 className={`px-4 py-2 text-lg font-bold transition-colors duration-300 ${
-                  activeSection === "supplier" //conditionally rendering the active state eith its list item
+                  activeSection === "supplier" //conditionally rendering the active state eith its lists
                     ? "text-orange-500 border-b-2 border-orange-500"
                     : "text-white"
                 }`}

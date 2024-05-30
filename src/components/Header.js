@@ -1,6 +1,6 @@
 import React from "react";
 import { Button, Container, Nav, NavDropdown, Navbar } from "react-bootstrap";
-import Logo from "../assets/habot-logo.jpg";
+import Logo from "../assets/habot-logo-removebg-preview.png";
 
 const Header = () => {
   return (
