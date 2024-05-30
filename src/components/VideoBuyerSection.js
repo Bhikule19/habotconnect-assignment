@@ -92,7 +92,7 @@ const VideoBuyerSection = () => {
                         className="mr-2 flex-none"
                         size={15}
                       />
-                      <span>Lorem ipsum dolor sit amet,</span>
+                      <span>Complete your profile and get verified</span>
                     </li>
                     <li className="flex items-start mb-2">
                       <FaCircleCheck
@@ -101,7 +101,7 @@ const VideoBuyerSection = () => {
                         size={15}
                       />
                       <span>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit
+                        Select service tags for relevant opportunities
                       </span>
                     </li>
                     <li className="flex items-start mb-2">
@@ -110,10 +110,7 @@ const VideoBuyerSection = () => {
                         className="mr-2 flex-none"
                         size={15}
                       />
-                      <span>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                        Donec vulputate
-                      </span>
+                      <span>Reach out to buyers and expand your business</span>
                     </li>
                   </ul>
                 </div>
